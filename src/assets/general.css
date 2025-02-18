@@ -5,5 +5,5 @@ html {
 
 body {
   font-family: 'Fira Code', monospace;
-  @apply bg-black;
+  @apply bg-midnight-navy;
 }

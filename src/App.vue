@@ -45,6 +45,17 @@
 
       <UiIconBox name="reactjs" color="black" bg-color="mint-green" />
       <UiIconBox name="html5" color="black" bg-color="sunset-orange" />
+
+      <br />
+      <br />
+
+      <UiCard
+        image="https://placehold.co/400x200"
+        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        buttonText="view-project"
+        icon="html5"
+        iconBackgroundColor="sunset-orange"
+      />
     </div>
   </header>
 

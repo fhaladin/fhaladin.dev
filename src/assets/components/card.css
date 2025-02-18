@@ -1,0 +1,31 @@
+.card {
+  @apply bg-midnight-teal w-fit  max-w-[370px] rounded-[15px] overflow-hidden relative border border-charcoal-blue;
+}
+
+.card__header {
+  @apply border-b border-charcoal-blue;
+}
+
+.card__image {
+  @apply w-full h-[145px] object-cover;
+}
+
+.card__icon {
+  @apply absolute top-2 right-2;
+}
+
+.card__text {
+  @apply text-steel-blue text-body;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card__content {
+  @apply p-7 flex gap-5 flex-col items-start;
+}
+
+.card__button {
+  @apply flex-grow-0;
+}

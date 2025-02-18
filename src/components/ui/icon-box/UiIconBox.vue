@@ -11,7 +11,7 @@ import type { IconBoxProps } from './types/icon-box'
 const props = withDefaults(defineProps<IconBoxProps>(), {
   name: 'admin',
   color: 'black',
-  bgColor: 'sunset-orange',
+  bgColor: 'periwinkle-blue',
 })
 
 const iconBoxClass = computed(() => [`text-${props.color}!`, `bg-${props.bgColor}`])

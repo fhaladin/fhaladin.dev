@@ -2,7 +2,7 @@ import type { App } from 'vue'
 
 export default {
   install(app: App) {
-    const modules = import.meta.glob<{ default: { name: string } }>('../components/**/*.vue', {
+    const modules = import.meta.glob<{ default: { name: string } }>('../components/ui/**/*.vue', {
       eager: true,
     })
 
