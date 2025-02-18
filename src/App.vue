@@ -1,85 +1,48 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import UiButton from './components/ui/button/UiButton.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
+
+      <br />
+
+      <p class="text-black">Black</p>
+      <p class="text-midnight-navy">Midnight Navy</p>
+      <p class="text-midnight-teal">Midnight Teal</p>
+      <p class="text-charcoal-blue">Charcoal Blue</p>
+
+      <p class="text-steel-blue">Steel Blue</p>
+      <p class="text-periwinkle-blue">Periwinkle Blue</p>
+
+      <p class="text-tropical-teal">Tropical Teal</p>
+      <p class="text-mint-green">Mint Green</p>
+
+      <p class="text-sunset-orange">Sunset Orange</p>
+      <p class="text-coral-pink">Coral Pink</p>
+      <p class="text-lavender-purple">Lavender Purple</p>
+
+      <br />
+      <p class="text-sunset-orange text-heading">Typography Heading</p>
+      <p class="text-sunset-orange text-subheading">Typography Subheading</p>
+      <p class="text-sunset-orange text-body">Typography Body</p>
+      <p class="text-sunset-orange text-label">Typography Label</p>
+      <p class="text-sunset-orange text-code-snippets">Typography Code Snippets</p>
+      <br />
+
+      <UiButton variant="primary">start-game</UiButton>
+      <UiButton variant="secondary">start-game</UiButton>
+      <UiButton variant="outline">start-game</UiButton>
     </div>
   </header>
 
   <RouterView />
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
-</style>
+<style scoped></style>

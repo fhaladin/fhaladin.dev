@@ -1,0 +1,30 @@
+@theme {
+  --color-*: initial; /* Placeholder, mungkin perlu diganti */
+
+  /* Base */
+  --color-white: #ffffff; /* Pure White */
+  --color-deep-black: #01080e; /* Deep Black Forest */
+  --color-black: #010c15; /* Black */
+
+  /* Dark */
+  --color-midnight-navy: #011627; /* Midnight Navy */
+  --color-midnight-teal: #011221; /* Midnight Teal */
+  --color-charcoal-blue: #1e2d3d; /* Charcoal Blue */
+
+  /* Midtone */
+  --color-steel-blue: #607b96; /* Steel Blue */
+  --color-periwinkle-blue: #4d5bce; /* Periwinkle Blue */
+
+  /* Light / Accent  */
+  --color-tropical-teal: #3c9d93; /* Tropical Teal */
+  --color-mint-green: #43d9ad; /* Mint Green */
+
+  /* Warm */
+  --color-sunset-orange: #fea55f; /* Sunset Orange */
+  --color-coral-pink: #e99287; /* Coral Pink */
+  --color-lavender-purple: #c98bdf; /* Lavender Purple */
+
+  /* Palette */
+  --color-primary: var(--color-sunset-orange);
+  --color-secondary: var(--color-charcoal-blue);
+}

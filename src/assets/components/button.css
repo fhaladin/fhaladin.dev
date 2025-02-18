@@ -1,0 +1,15 @@
+.btn {
+  @apply px-[1rem] py-[0.714rem] rounded-[0.5em] cursor-pointer border hover:opacity-75 active:opacity-50;
+}
+
+.btn.btn-primary {
+  @apply bg-primary text-deep-black border-primary;
+}
+
+.btn.btn-secondary {
+  @apply bg-secondary text-white border-secondary;
+}
+
+.btn.btn-outline {
+  @apply border border-white text-white bg-transparent;
+}

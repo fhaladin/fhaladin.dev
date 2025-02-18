@@ -1,0 +1,9 @@
+html {
+  font-size: 16px;
+  line-height: 1rem;
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  @apply bg-black;
+}

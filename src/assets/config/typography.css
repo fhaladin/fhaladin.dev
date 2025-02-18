@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Fira Code';
+  src: url('/font/FiraCode-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('/font/FiraCode-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('/font/FiraCode-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-family-sans: 'Fira Code', monospace;
+  --font-family-serif: 'Fira Code', monospace;
+  --font-family-mono: 'Fira Code', monospace;
+
+  --text-heading: 3.875rem;
+  --text-heading--line-height: 1em;
+
+  --text-subheading: 2rem;
+  --text-subheading--line-height: 1em;
+
+  --text-body: 1.125rem;
+  --text-body--line-height: 1em;
+
+  --text-label: 1rem;
+  --text-label--line-height: 1em;
+
+  --text-code-snippets: 0.875rem;
+  --text-code-snippets--line-height: 1em;
+}
