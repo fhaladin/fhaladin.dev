@@ -1,11 +1,6 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import UiButton from './components/ui/button/UiButton.vue'
-</script>
-
 <template>
   <header>
-    <div class="wrapper">
+    <div>
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
@@ -39,10 +34,23 @@ import UiButton from './components/ui/button/UiButton.vue'
       <UiButton variant="primary">start-game</UiButton>
       <UiButton variant="secondary">start-game</UiButton>
       <UiButton variant="outline">start-game</UiButton>
+
+      <UiIcon name="admin" variant="line" />
+      <UiIcon name="html5" />
+      <UiIcon name="arrow-right" variant="line" small />
+      <UiIcon name="store" />
+
+      <br />
+      <br />
+
+      <UiIconBox name="reactjs" color="black" bg-color="mint-green" />
+      <UiIconBox name="html5" color="black" bg-color="sunset-orange" />
     </div>
   </header>
 
   <RouterView />
 </template>
 
-<style scoped></style>
+<script setup lang="ts">
+import { RouterLink, RouterView } from 'vue-router'
+</script>

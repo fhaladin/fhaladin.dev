@@ -5,12 +5,9 @@
 </template>
 
 <script setup lang="ts">
-import { defineProps } from 'vue'
+import { computed } from 'vue'
+import type { ButtonProps } from './types/button'
 
-const props = defineProps<{
-  variant: 'primary' | 'secondary' | 'outline'
-  customClass?: string
-}>()
-
-const buttonTypeClass = `btn-${props.variant}`
+const props = defineProps<ButtonProps>()
+const buttonTypeClass = computed(() => `btn-${props.variant}`)
 </script>

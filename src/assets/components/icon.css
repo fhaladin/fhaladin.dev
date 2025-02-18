@@ -1,0 +1,7 @@
+.icon {
+  @apply text-icon;
+}
+
+.icon-sm {
+  @apply text-icon-sm;
+}
