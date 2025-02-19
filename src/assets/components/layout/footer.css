@@ -1,0 +1,26 @@
+.footer {
+  @apply fixed
+    bottom-0
+    w-full
+    bg-midnight-navy
+    flex
+    justify-between
+    border-t
+    text-steel-blue
+    border-steel-blue;
+}
+
+.footer__left {
+  @apply flex;
+}
+
+.footer__item {
+  @apply flex
+    items-center
+    px-6
+    py-4
+    cursor-pointer
+    border-steel-blue
+    text-nowrap
+    relative; /* Add relative position to parent */
+}

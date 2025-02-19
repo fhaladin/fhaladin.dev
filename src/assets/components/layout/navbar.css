@@ -1,5 +1,7 @@
 .navbar {
   @apply w-full
+    fixed
+    bg-midnight-navy
     flex
     justify-between
     border-b
@@ -21,6 +23,7 @@
 
 .navbar__logo {
   @apply w-[320px]
+    flex-shrink-0
     px-6
     py-4;
 }
