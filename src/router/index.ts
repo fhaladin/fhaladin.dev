@@ -13,6 +13,11 @@ const router = createRouter({
           component: () => import('@/views/HelloView.vue'),
         },
         {
+          path: '/contact-me',
+          name: 'contact-me',
+          component: () => import('@/views/ContactMeView.vue'),
+        },
+        {
           path: '/about-me',
           name: 'about-me',
           component: () => import('@/views/AboutMeView.vue'),
@@ -23,14 +28,14 @@ const router = createRouter({
           component: () => import('@/views/ProjectsView.vue'),
         },
         {
+          path: '/blog',
+          name: 'blog',
+          component: () => import('@/views/BlogView.vue'),
+        },
+        {
           path: '/playground',
           name: 'playground',
           component: () => import('@/views/PlaygroundView.vue'),
-        },
-        {
-          path: '/contact-me',
-          name: 'contact-me',
-          component: () => import('@/views/ContactMeView.vue'),
         },
       ],
     },

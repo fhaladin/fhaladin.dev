@@ -1,0 +1,17 @@
+.sidebar {
+  @apply w-[320px]
+    h-[100%]
+    flex-shrink-0
+    border-r
+    border-steel-blue
+    text-white;
+}
+
+.sidebar__group-head {
+  @apply h-[40px]
+    border-b
+    border-steel-blue
+    flex
+    items-center
+    px-6;
+}

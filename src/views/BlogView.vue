@@ -3,7 +3,7 @@
     <LSidebar />
 
     <div class="about">
-      <h1 class="text-heading text-white">This is a project page</h1>
+      <h1 class="text-heading text-white">This is a blog page</h1>
     </div>
   </div>
 </template>

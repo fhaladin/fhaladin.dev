@@ -8,6 +8,18 @@ body {
   @apply bg-midnight-navy;
 }
 
+.content {
+  @apply h-[100vh] 
+    pt-[48px]
+    pb-[53px]
+    flex justify-center
+    items-center;
+}
+
+.content-with-sidebar {
+  @apply h-[100vh] pt-[48px] pb-[53px] flex;
+}
+
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.3s ease;

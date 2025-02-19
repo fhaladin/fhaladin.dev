@@ -23,6 +23,8 @@
 
 .navbar__logo {
   @apply w-[320px]
+    border-r
+    border-steel-blue
     flex-shrink-0
     px-6
     py-4;
@@ -34,20 +36,10 @@
     px-8
     py-4
     cursor-pointer
-    border-l
+    border-r
     border-steel-blue
     text-nowrap
     relative; /* Add relative position to parent */
-}
-
-.navbar__item.last {
-  @apply flex
-    items-center
-    px-8
-    py-4
-    cursor-pointer
-    border-l border-r
-    border-steel-blue;
 }
 
 .navbar__item.active {
