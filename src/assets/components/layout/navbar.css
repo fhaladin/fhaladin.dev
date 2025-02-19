@@ -7,8 +7,16 @@
     border-steel-blue;
 }
 
-.navbar__left {
-  @apply flex;
+.navbar__menu {
+  @apply justify-between
+    hidden
+    lg:flex
+    w-full;
+}
+
+.navbar__menu-left {
+  @apply flex
+    w-full;
 }
 
 .navbar__logo {
@@ -25,6 +33,7 @@
     cursor-pointer
     border-l
     border-steel-blue
+    text-nowrap
     relative; /* Add relative position to parent */
 }
 
