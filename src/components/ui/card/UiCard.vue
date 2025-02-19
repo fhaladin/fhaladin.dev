@@ -2,7 +2,7 @@
   <div class="card">
     <div class="card__header">
       <img class="card__image" :src="image" alt="card-thumbnail" />
-      <UiIconBox class="card__icon" :name="icon" :bg-color="iconBackgroundColor" />
+      <UiIconBox class="card__icon" :class="iconBackgroundColor" :name="icon" />
     </div>
 
     <div class="card__content">
@@ -20,6 +20,6 @@ withDefaults(defineProps<CardProps>(), {
   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
   buttonText: 'view-project',
   icon: 'html5',
-  iconBackgroundColor: 'sunset-orange',
+  iconBackgroundColor: 'bg-sunset-orange',
 })
 </script>

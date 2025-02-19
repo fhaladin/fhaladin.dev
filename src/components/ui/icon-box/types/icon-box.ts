@@ -1,35 +1,4 @@
 export interface IconBoxProps {
   name: string
-  bgColor?:
-    | 'black'
-    | 'white'
-    | 'primary'
-    | 'secondary'
-    | 'deep-black'
-    | 'midnight-navy'
-    | 'midnight-teal'
-    | 'charcoal-blue'
-    | 'steel-blue'
-    | 'periwinkle-blue'
-    | 'tropical-teal'
-    | 'mint-green'
-    | 'sunset-orange'
-    | 'coral-pink'
-    | 'lavender-purple'
-  color?:
-    | 'black'
-    | 'white'
-    | 'primary'
-    | 'secondary'
-    | 'deep-black'
-    | 'midnight-navy'
-    | 'midnight-teal'
-    | 'charcoal-blue'
-    | 'steel-blue'
-    | 'periwinkle-blue'
-    | 'tropical-teal'
-    | 'mint-green'
-    | 'sunset-orange'
-    | 'coral-pink'
-    | 'lavender-purple'
+  iconColor?: string
 }
