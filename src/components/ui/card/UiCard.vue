@@ -1,5 +1,5 @@
 <template>
-  <div class="card" :class="{ 'card--large': large }">
+  <div class="card" :class="`card--${size}`">
     <div class="card__header">
       <img class="card__image" :src="image" alt="card-thumbnail" />
       <UiIconBox class="card__icon" :class="iconBackgroundColor" :name="icon" />
@@ -23,7 +23,7 @@ withDefaults(defineProps<CardProps>(), {
   buttonText: 'view-project',
   icon: 'html5',
   iconBackgroundColor: 'bg-sunset-orange',
-  large: false,
+  size: 'small',
 })
 
 defineEmits(['buttonClick'])

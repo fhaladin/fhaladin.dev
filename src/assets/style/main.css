@@ -2,6 +2,7 @@
 @import 'tailwindcss';
 
 @import './general.css';
+@import './transitions.css';
 
 @import './config.css';
 @import './components.css';
