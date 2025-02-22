@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://fhaladin.dev/</loc>
+    <lastmod>2025-02-22</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://fhaladin.dev/about-me</loc>
+    <lastmod>2025-02-22</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://fhaladin.dev/contact-me</loc>
+    <lastmod>2025-02-22</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://fhaladin.dev/projects</loc>
+    <lastmod>2025-02-22</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://fhaladin.dev/blog</loc>
+    <lastmod>2025-02-22</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://fhaladin.dev/playground</loc>
+    <lastmod>2025-02-22</lastmod>
+    <priority>0.80</priority>
+  </url>
+</urlset>

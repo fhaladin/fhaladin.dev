@@ -81,7 +81,8 @@ const loadRSSFeed = async () => {
         }
       })
 
-      displayedFeeds.value = rssFeedData.value.slice(0, 3)
+      const shuffledFeeds = rssFeedData.value.sort(() => 0.5 - Math.random())
+      displayedFeeds.value = shuffledFeeds.slice(0, 3)
     }
   } catch (err) {
     console.error('Failed to fetch RSS feed:', err)

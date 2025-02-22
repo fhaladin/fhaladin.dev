@@ -1,0 +1,6 @@
+# Allow all robots complete access
+User-agent: *
+Disallow:
+
+# Link to sitemap
+Sitemap: https://fhaladin.dev/sitemap.xml
