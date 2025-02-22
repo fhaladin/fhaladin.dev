@@ -18,7 +18,7 @@
         </div>
 
         <div class="navbar__contact-me">
-          <LNavbarMenu to="/contact-me">_contact-me</LNavbarMenu>
+          <LNavbarMenu class="border-l" to="/contact-me">_contact-me</LNavbarMenu>
         </div>
       </div>
     </nav>

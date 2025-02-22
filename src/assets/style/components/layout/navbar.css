@@ -1,5 +1,6 @@
 .navbar {
   @apply w-full
+    z-10
     fixed
     bg-midnight-navy
     flex

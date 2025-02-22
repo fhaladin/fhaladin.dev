@@ -1,29 +1,46 @@
 .card {
-  @apply bg-midnight-teal w-fit  max-w-[370px] rounded-[15px] overflow-hidden relative border border-charcoal-blue;
+  @apply bg-midnight-teal
+    w-fit
+    max-w-[370px]
+    rounded-[15px]
+    overflow-hidden
+    relative border
+    border-charcoal-blue;
+}
+
+.card.card--large {
+  @apply max-w-[500px]
+    min-w-[500px];
 }
 
 .card__header {
-  @apply border-b border-charcoal-blue;
+  @apply border-b
+    border-charcoal-blue;
 }
 
 .card__image {
-  @apply w-full h-[145px] object-cover;
+  @apply w-full
+    h-[145px]
+    object-cover;
 }
 
 .card__icon {
-  @apply absolute top-4 right-4;
+  @apply absolute
+    top-4
+    right-4;
 }
 
 .card__text {
-  @apply text-steel-blue text-body;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+  @apply text-steel-blue text-body overflow-hidden;
+  @apply line-clamp-3;
 }
 
 .card__content {
-  @apply p-7 flex gap-5 flex-col items-start;
+  @apply p-7
+    flex
+    gap-5
+    flex-col
+    items-start;
 }
 
 .card__button {
