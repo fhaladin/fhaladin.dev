@@ -12,7 +12,9 @@
 
 .navbar__mobile {
   @apply px-6
-    py-4;
+    py-4
+    cursor-pointer
+    lg:hidden;
 }
 
 .navbar__menu {
@@ -33,6 +35,8 @@
     lg:border-r
     border-steel-blue
     flex-shrink-0
+    flex
+    items-center
     px-6
     py-4;
 }

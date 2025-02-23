@@ -17,9 +17,9 @@
           </LNavbarMenu>
         </div>
 
-        <div class="navbar__contact-me">
-          <LNavbarMenu class="border-l" to="/contact-me">_contact-me</LNavbarMenu>
-        </div>
+        <!-- <div class="navbar__contact-me">
+          <LNavbarMenu class="border-l h-full" to="/contact-me">_contact-me</LNavbarMenu>
+        </div> -->
       </div>
 
       <div class="navbar__mobile">

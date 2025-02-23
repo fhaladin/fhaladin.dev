@@ -6,10 +6,8 @@
       <UiTypingText :text="titles" />
     </h2>
 
-    <p class="text-steel-blue mb-3" style="line-height: normal">// Read my blog on Medium</p>
-    <p class="text-steel-blue mb-3" style="line-height: normal">
-      // You can learn something in Playground
-    </p>
+    <p class="text-steel-blue mb-1" style="line-height: normal">// Welcom to fhaladin.dev</p>
+    <p class="text-steel-blue mb-1" style="line-height: normal">// Hire me for your next project</p>
     <p class="text-steel-blue" style="line-height: normal">
       <span class="text-periwinkle-blue">const </span>
       <span class="text-mint-green">mySkills </span>
