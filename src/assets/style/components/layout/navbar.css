@@ -10,6 +10,11 @@
     border-steel-blue;
 }
 
+.navbar__mobile {
+  @apply px-6
+    py-4;
+}
+
 .navbar__menu {
   @apply justify-between
     hidden
@@ -24,7 +29,8 @@
 
 .navbar__logo {
   @apply w-[320px]
-    border-r
+    border-0
+    lg:border-r
     border-steel-blue
     flex-shrink-0
     px-6

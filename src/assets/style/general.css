@@ -1,6 +1,12 @@
 html {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1rem;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
 }
 
 body {

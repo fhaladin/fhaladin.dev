@@ -21,6 +21,10 @@
           <LNavbarMenu class="border-l" to="/contact-me">_contact-me</LNavbarMenu>
         </div>
       </div>
+
+      <div class="navbar__mobile">
+        <UiIcon name="menu" />
+      </div>
     </nav>
   </header>
 </template>

@@ -33,7 +33,7 @@
 
 .card.card--blur {
   @apply filter
-    blur-[2px];
+    blur-[3px];
 }
 
 .card__header {

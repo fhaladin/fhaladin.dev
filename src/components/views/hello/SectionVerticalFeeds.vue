@@ -24,12 +24,12 @@
       <img
         src="/ornament/ornament-blur-green.svg"
         alt="ornament"
-        class="absolute top-60 -left-[120px] -z-10"
+        class="absolute top-60 -left-[140px] -z-10"
       />
       <img
         src="/ornament/ornament-blur-blue.svg"
         alt="ornament"
-        class="absolute bottom-30 -right-[120px] -z-10"
+        class="absolute bottom-30 -right-[140px] -z-10"
       />
     </TransitionGroup>
   </transition>

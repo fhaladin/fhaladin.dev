@@ -3,7 +3,8 @@
     bottom-0
     w-full
     bg-midnight-navy
-    flex
+    hidden
+    lg:flex
     justify-between
     border-t
     text-steel-blue
