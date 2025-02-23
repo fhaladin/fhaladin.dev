@@ -31,6 +31,11 @@
     ease-in-out;
 }
 
+.card.card--blur {
+  @apply filter
+    blur-[2px];
+}
+
 .card__header {
   @apply border-b
     border-charcoal-blue;

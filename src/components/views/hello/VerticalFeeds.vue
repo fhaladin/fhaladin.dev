@@ -4,7 +4,7 @@
       v-if="rssFeedData.length"
       name="list-vertical-feeds"
       tag="div"
-      class="h-full flex flex-col min-w-[500px] items-center justify-center gap-6 overflow-hidden relative"
+      class="h-full flex flex-col min-w-[500px] items-center justify-center gap-6 relative"
       move-class="list-vertical-feeds-move"
     >
       <UiCard
@@ -13,11 +13,23 @@
         :text="item.title"
         :image="item.image"
         :size="cardSize(index, displayedFeeds.length)"
+        :blur="cardBlur(index, displayedFeeds.length)"
         icon="medium"
         iconBackgroundColor="bg-steel-blue"
         button-text="Read more"
         class="flex-shrink-0 absolute"
         @button-click="redirectLink(item.link)"
+      />
+
+      <img
+        src="/ornament/ornament-blur-green.svg"
+        alt="ornament"
+        class="absolute top-60 -left-[120px] -z-10"
+      />
+      <img
+        src="/ornament/ornament-blur-blue.svg"
+        alt="ornament"
+        class="absolute bottom-30 -right-[120px] -z-10"
       />
     </TransitionGroup>
   </transition>
@@ -34,7 +46,7 @@ const interval = ref<number | null>(null)
 
 onMounted(async () => {
   await loadRSSFeed()
-  interval.value = setInterval(cycleFeeds, 5000)
+  interval.value = setInterval(cycleFeeds, 4000)
 })
 
 onUnmounted(() => {
@@ -98,6 +110,14 @@ const cardSize = (index: number, len: number) => {
     return index === 0 ? 'large' : 'medium'
   } else {
     return index === 1 ? 'large' : 'medium'
+  }
+}
+
+const cardBlur = (index: number, len: number) => {
+  if (len === 2) {
+    return index !== 0
+  } else {
+    return index !== 1
   }
 }
 </script>

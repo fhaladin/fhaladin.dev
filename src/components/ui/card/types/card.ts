@@ -5,5 +5,6 @@ export interface CardProps {
   icon?: string
   iconColor?: string
   iconBackgroundColor?: string
+  blur?: boolean
   size?: 'small' | 'medium' | 'large'
 }

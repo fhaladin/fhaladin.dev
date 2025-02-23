@@ -13,6 +13,8 @@ body {
     pt-[48px]
     pb-[53px]
     flex justify-center
+    overflow-hidden
+    p-14
     items-center;
 }
 

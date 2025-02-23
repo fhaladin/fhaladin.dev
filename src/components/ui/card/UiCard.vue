@@ -1,5 +1,5 @@
 <template>
-  <div class="card" :class="`card--${size}`">
+  <div :class="cardClasses">
     <div class="card__header">
       <img class="card__image" :src="image" alt="card-thumbnail" />
       <UiIconBox class="card__icon" :class="iconBackgroundColor" :name="icon" />
@@ -15,16 +15,20 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
 import type { CardProps } from './types/card'
 
-withDefaults(defineProps<CardProps>(), {
+const props = withDefaults(defineProps<CardProps>(), {
   image: 'https://placehold.co/400x200',
   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. ',
   buttonText: 'view-project',
   icon: 'html5',
   iconBackgroundColor: 'bg-sunset-orange',
   size: 'small',
+  blur: false,
 })
 
 defineEmits(['buttonClick'])
+
+const cardClasses = computed(() => ['card', `card--${props.size}`, { 'card--blur': props.blur }])
 </script>
