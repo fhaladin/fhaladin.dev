@@ -6,9 +6,9 @@
       <UiTypingText :text="titles" />
     </h2>
 
-    <p class="text-steel-blue mb-1" style="line-height: normal">// Welcom to fhaladin.dev</p>
-    <p class="text-steel-blue mb-1" style="line-height: normal">// Hire me for your next project</p>
-    <p class="text-steel-blue" style="line-height: normal">
+    <p class="text-steel-blue mb-1 leading-normal">// Welcom to fhaladin.dev</p>
+    <p class="text-steel-blue mb-1 leading-normal">// Hire me for your next project</p>
+    <p class="text-steel-blue leading-normal">
       <span class="text-periwinkle-blue">const </span>
       <span class="text-mint-green">mySkills </span>
       <span class="text-white">= </span>
